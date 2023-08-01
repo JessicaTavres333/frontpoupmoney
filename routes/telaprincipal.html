@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/telaprincipal.css">
+  <title>PoupMoney</title>
+
+</head>
+<body>
+  <header>
+    <div class="info-header">
+      <div class="logo">
+        <h3>PoupMoney</h3>
+      </div>
+      <div class="icons-header">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        
+      </div>
+    </div>
+    <div class="info-header">
+      <i class="fa-solid fa-bell"></i>
+      <i class="fa-solid fa-envelope"></i>
+      <img src="img/casal.png">
+    </div>
+  </header>
+  
+  
+  <section class="main">
+    <div class="sidebar">
+      <h3>Indice</h3>
+      <a class="sidebar-active" href="#"><i class ="fa-solid fa-house"></i> Suas Finanças</a>
+      <a href="#"><i class ="fa-solid fa-house"></i> Relatório</a>
+      <a href="#"><i class ="fa-solid fa-house"></i> Desafio</a>
+      <a href="#"><i class ="fa-solid fa-house"></i>Investimento </a>
+      <br/>
+      <div class="separator"></div>
+      <h3>Outros</h3>
+      <a href="#"><i class ="fa-solid fa-house"></i> Vazio</a>
+      <a href="#"><i class ="fa-solid fa-house"></i> Vazio</a>
+      <a href="#"><i class ="fa-solid fa-house"></i> Vazio</a>
+      <a href="#"><i class ="fa-solid fa-house"></i> Vazio</a>
+      <br/>
+      <div class="separator"></div>
+    </div>
+    
+    <div class="content">
+      <div class="title-section">
+        <h2>Dashboard PoupMoney</h2>
+        <br/>
+        <div class="separator"></div>
+        <br/>
+        <p><i class="fa-solid fa-house"></i> / Planilha</p> 
+      </div>
+      
+
+     <!--Tabela-->
+
+      <main>
+        <div class="resume">
+            <div>
+                Entrada:$
+                <span class="incomes">0.00</span>
+            </div>
+            <div>
+                Saída:$
+                <span class="expenses">0.00</span>
+            </div>
+            <div>
+                Total:$ 
+                <span class="total">0.00</span>
+            </div>
+        </div>
+         <!--Campo de imformação do usuario-->
+        <div class="newItem">
+            <div class="divDesc">
+                <label for="desc">Descrição</label>
+                <input type="text" id="desc">
+            </div>
+            <div class="divAmount">
+                <label for="amount">Valor</label>
+                <input type="number" id="amount">
+            </div>
+            <div class="divType">
+                <label for="type">Tipo</label>
+                <select id="type">
+                    <option>Entrada</option>
+                    <option>Saída</option>
+                </select>
+            </div>
+            <button id="btnNew">Incluir</button>
+        </div>
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th class="columnAmount">Valor</th>
+                        <th class="columnType">Tipo</th>
+                        <th class="columnAction"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./js/telaprincipal.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> 
+    <!-- content-->
+  </section>
+  <!-- main-->
+  <script src="https://cdnjs.cloudflare.com/ajax//libs/font-awesome/6.1.0/js/all.min.js"></script>
+
+  
+</body>
+</html>
